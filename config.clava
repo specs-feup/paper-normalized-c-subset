@@ -193,6 +193,11 @@
       <FileList>
         <fileList>
           <file>InlineBench</file>
+          <file>src-lara</file>
+          <file>..\..\Lab\clava-benchmarks\CHStone</file>
+          <file>..\..\Lab\clava-benchmarks\HiFlipVX</file>
+          <file>..\..\Lab\clava-benchmarks\LSU</file>
+          <file>..\..\Lab\clava-benchmarks\NAS</file>
         </fileList>
       </FileList>
     </entry>
