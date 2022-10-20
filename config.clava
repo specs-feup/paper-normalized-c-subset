@@ -72,7 +72,15 @@
     <entry>
       <string>external_dependencies</string>
       <StringList>
-        <stringList/>
+        <stringList>
+          <string>https://github.com/specs-feup/clava-benchmarks.git?folder=Polybench</string>
+          <string>https://github.com/specs-feup/clava-benchmarks.git?folder=NAS</string>
+          <string>https://github.com/specs-feup/clava-benchmarks.git?folder=LSU</string>
+          <string>https://github.com/specs-feup/clava-benchmarks.git?folder=CHStone</string>
+          <string>https://github.com/specs-feup/clava-benchmarks.git?folder=HiFlipVX</string>
+          <string>https://github.com/specs-feup/clava-benchmarks.git?folder=Parboil</string>
+          <string>https://github.com/specs-feup/clava-benchmarks.git?folder=Rosetta</string>
+        </stringList>
       </StringList>
     </entry>
     <entry>
@@ -172,7 +180,7 @@
     </entry>
     <entry>
       <string>aspect</string>
-      <file>Main.js</file>
+      <file>TestInliner.js</file>
     </entry>
     <entry>
       <string>ignoreHeaderIncludes</string>
@@ -194,10 +202,6 @@
         <fileList>
           <file>InlineBench</file>
           <file>src-lara</file>
-          <file>..\..\Lab\clava-benchmarks\CHStone</file>
-          <file>..\..\Lab\clava-benchmarks\HiFlipVX</file>
-          <file>..\..\Lab\clava-benchmarks\LSU</file>
-          <file>..\..\Lab\clava-benchmarks\NAS</file>
         </fileList>
       </FileList>
     </entry>

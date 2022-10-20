@@ -1,0 +1,344 @@
+{
+	"CHStoneBenchmarkSet": {
+		"CHStone-adpcm-N": {
+			"result": "Ok",
+			"success": true
+		},
+		"CHStone-aes-N": {
+			"result": "Ok",
+			"success": true
+		},
+		"CHStone-blowfish-N": {
+			"result": "Ok",
+			"success": true
+		},
+		"CHStone-dfadd-N": {
+			"result": "[ERROR] problems while testing instance 'CHStone-dfadd-N: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"CHStone-dfdiv-N": {
+			"result": "[ERROR] problems while testing instance 'CHStone-dfdiv-N: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"CHStone-dfmul-N": {
+			"result": "[ERROR] problems while testing instance 'CHStone-dfmul-N: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"CHStone-dfsin-N": {
+			"result": "[ERROR] problems while testing instance 'CHStone-dfsin-N: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"CHStone-gsm-N": {
+			"result": "Ok",
+			"success": true
+		},
+		"CHStone-jpeg-N": {
+			"result": "[ERROR] problems while testing instance 'CHStone-jpeg-N: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"CHStone-mips-N": {
+			"result": "[ERROR] problems while testing instance 'CHStone-mips-N: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"CHStone-motion-N": {
+			"result": "Ok",
+			"success": true
+		},
+		"CHStone-sha-N": {
+			"result": "Ok",
+			"success": true
+		}
+	},
+	"HiFlipVXBenchmarkSet": {
+		"HiFlipVX-v2-N": {
+			"result": "[ERROR] problems while testing instance 'HiFlipVX-v2-N: java.lang.NullPointerException: Cannot invoke \"pt.up.fe.specs.clava.weaver.abstracts.joinpoints.AFunction.getNode()\" because \"function\" is null",
+			"success": false
+		}
+	},
+	"NasBenchmarkSet": {
+		"NAS-BT-W": {
+			"result": "Ok",
+			"success": true
+		},
+		"NAS-CG-W": {
+			"result": "Ok",
+			"success": true
+		},
+		"NAS-EP-W": {
+			"result": "Ok",
+			"success": true
+		},
+		"NAS-FT-W": {
+			"result": "Ok",
+			"success": true
+		},
+		"NAS-IS-W": {
+			"result": "[ERROR] problems while testing instance 'NAS-IS-W: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"NAS-LU-W": {
+			"result": "[ERROR] problems while testing instance 'NAS-LU-W: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"NAS-MG-W": {
+			"result": "Ok",
+			"success": true
+		},
+		"NAS-SP-W": {
+			"result": "Ok",
+			"success": true
+		}
+	},
+	"ParboilBenchmarkSet": {
+		"Parboil-bfs-1m": {
+			"result": "[ERROR] problems while testing instance 'Parboil-bfs-1m: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-bfs-ny": {
+			"result": "[ERROR] problems while testing instance 'Parboil-bfs-ny: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-bfs-sf": {
+			"result": "[ERROR] problems while testing instance 'Parboil-bfs-sf: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-bfs-ut": {
+			"result": "[ERROR] problems while testing instance 'Parboil-bfs-ut: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-cutcp-large": {
+			"result": "[ERROR] problems while testing instance 'Parboil-cutcp-large: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-cutcp-small": {
+			"result": "[ERROR] problems while testing instance 'Parboil-cutcp-small: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-histo-large": {
+			"result": "[ERROR] problems while testing instance 'Parboil-histo-large: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-histo-default": {
+			"result": "[ERROR] problems while testing instance 'Parboil-histo-default: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-lbm-short": {
+			"result": "[ERROR] problems while testing instance 'Parboil-lbm-short: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-lbm-long": {
+			"result": "[ERROR] problems while testing instance 'Parboil-lbm-long: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-mri-gridding-small": {
+			"result": "[ERROR] problems while testing instance 'Parboil-mri-gridding-small: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-mri-q-large": {
+			"result": "[ERROR] problems while testing instance 'Parboil-mri-q-large: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-mri-q-small": {
+			"result": "[ERROR] problems while testing instance 'Parboil-mri-q-small: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-sad-large": {
+			"result": "[ERROR] problems while testing instance 'Parboil-sad-large: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-sad-default": {
+			"result": "[ERROR] problems while testing instance 'Parboil-sad-default: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-sgemm-small": {
+			"result": "[ERROR] problems while testing instance 'Parboil-sgemm-small: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-sgemm-medium": {
+			"result": "[ERROR] problems while testing instance 'Parboil-sgemm-medium: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-spmv-large": {
+			"result": "[ERROR] problems while testing instance 'Parboil-spmv-large: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-spmv-small": {
+			"result": "[ERROR] problems while testing instance 'Parboil-spmv-small: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-spmv-medium": {
+			"result": "[ERROR] problems while testing instance 'Parboil-spmv-medium: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-stencil-small": {
+			"result": "[ERROR] problems while testing instance 'Parboil-stencil-small: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-stencil-default": {
+			"result": "[ERROR] problems while testing instance 'Parboil-stencil-default: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-tpacf-large": {
+			"result": "[ERROR] problems while testing instance 'Parboil-tpacf-large: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-tpacf-small": {
+			"result": "[ERROR] problems while testing instance 'Parboil-tpacf-small: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		},
+		"Parboil-tpacf-medium": {
+			"result": "[ERROR] problems while testing instance 'Parboil-tpacf-medium: TypeError: Cannot read property \"stmt\" from undefined",
+			"success": false
+		}
+	},
+	"PolybenchBenchmarkSet": {
+		"Polybench-2mm-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-2mm-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-3mm-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-3mm-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-adi-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-adi-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-atax-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-atax-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-bicg-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-bicg-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-cholesky-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-cholesky-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-correlation-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-correlation-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-covariance-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-covariance-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-deriche-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-deriche-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-doitgen-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-doitgen-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-durbin-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-durbin-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-gemm-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-gemm-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-gemver-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-gemver-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-gesummv-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-gesummv-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-gramschmidt-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-gramschmidt-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-heat-3d-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-heat-3d-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-jacobi-1d-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-jacobi-1d-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-jacobi-2d-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-jacobi-2d-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-lu-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-lu-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-ludcmp-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-ludcmp-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-mvt-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-mvt-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-seidel-2d-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-seidel-2d-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-symm-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-symm-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-syr2k-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-syr2k-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-syrk-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-syrk-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-trisolv-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-trisolv-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Polybench-trmm-SMALL": {
+			"result": "[ERROR] problems while testing instance 'Polybench-trmm-SMALL: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		}
+	},
+	"RosettaBenchmarkSet": {
+		"Rosetta-3d-rendering-N": {
+			"result": "[ERROR] problems while testing instance 'Rosetta-3d-rendering-N: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Rosetta-digit-recognition-N": {
+			"result": "[ERROR] problems while testing instance 'Rosetta-digit-recognition-N: org.lara.interpreter.exception.ActionException: Exception in action vardecl.removeInit",
+			"success": false
+		},
+		"Rosetta-face-detection-N": {
+			"result": "[ERROR] problems while testing instance 'Rosetta-face-detection-N: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		},
+		"Rosetta-optical-flow-current": {
+			"result": "[ERROR] problems while testing instance 'Rosetta-optical-flow-current: java.lang.NullPointerException: Cannot invoke \"pt.up.fe.specs.clava.weaver.abstracts.joinpoints.AFunction.getNode()\" because \"function\" is null",
+			"success": false
+		},
+		"Rosetta-optical-flow-sintel": {
+			"result": "[ERROR] problems while testing instance 'Rosetta-optical-flow-sintel: java.lang.NullPointerException: Cannot invoke \"pt.up.fe.specs.clava.weaver.abstracts.joinpoints.AFunction.getNode()\" because \"function\" is null",
+			"success": false
+		},
+		"Rosetta-spam-filter-N": {
+			"result": "[ERROR] problems while testing instance 'Rosetta-spam-filter-N: org.lara.interpreter.exception.AspectDefException: Exception apply Rebuild_apply_0_0(to Rebuild_select_0)",
+			"success": false
+		}
+	},
+	"InlineBenchmarkSet": {
+		"Inlinebench-k_means": {
+			"result": "Ok",
+			"success": true
+		},
+		"Inlinebench-matrix_mult": {
+			"result": "Ok",
+			"success": true
+		},
+		"Inlinebench-vec_multiple_returns": {
+			"result": "Ok",
+			"success": true
+		}
+	}
+}
