@@ -1,0 +1,258 @@
+{
+	"normTrueNewTrue": {
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": {
+					"calls_total": 105,
+					"calls_no_definition": 43,
+					"calls_inlined": 36,
+					"calls_inlining_fails": 24,
+					"calls_rebuild_fails": 2
+				},
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": {
+					"calls_total": 61,
+					"calls_no_definition": 39,
+					"calls_inlined": 17,
+					"calls_inlining_fails": 2,
+					"calls_rebuild_fails": 3
+				},
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": {
+					"calls_total": 54,
+					"calls_no_definition": 35,
+					"calls_inlined": 9,
+					"calls_inlining_fails": 1,
+					"calls_rebuild_fails": 9
+				},
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": {
+					"calls_total": 70,
+					"calls_no_definition": 27,
+					"calls_inlined": 6,
+					"calls_inlining_fails": 4,
+					"calls_rebuild_fails": 33
+				},
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": {
+					"calls_total": 110,
+					"calls_no_definition": 44,
+					"calls_inlined": 5,
+					"calls_inlining_fails": 1,
+					"calls_rebuild_fails": 60
+				},
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": {
+					"calls_total": 90,
+					"calls_no_definition": 45,
+					"calls_inlined": 40,
+					"calls_inlining_fails": 3,
+					"calls_rebuild_fails": 2
+				},
+				"success": true
+			}
+		}
+	},
+	"normFalseNewTrue": {
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": {
+					"calls_total": 105,
+					"calls_no_definition": 43,
+					"calls_inlined": 20,
+					"calls_inlining_fails": 40,
+					"calls_rebuild_fails": 2
+				},
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": {
+					"calls_total": 61,
+					"calls_no_definition": 39,
+					"calls_inlined": 8,
+					"calls_inlining_fails": 11,
+					"calls_rebuild_fails": 3
+				},
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": {
+					"calls_total": 54,
+					"calls_no_definition": 35,
+					"calls_inlined": 9,
+					"calls_inlining_fails": 8,
+					"calls_rebuild_fails": 2
+				},
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": {
+					"calls_total": 70,
+					"calls_no_definition": 27,
+					"calls_inlined": 11,
+					"calls_inlining_fails": 30,
+					"calls_rebuild_fails": 2
+				},
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": {
+					"calls_total": 110,
+					"calls_no_definition": 44,
+					"calls_inlined": 12,
+					"calls_inlining_fails": 52,
+					"calls_rebuild_fails": 2
+				},
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": {
+					"calls_total": 90,
+					"calls_no_definition": 45,
+					"calls_inlined": 20,
+					"calls_inlining_fails": 23,
+					"calls_rebuild_fails": 2
+				},
+				"success": true
+			}
+		}
+	},
+	"normTrueNewFalse": {
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": {
+					"calls_total": 105,
+					"calls_no_definition": 43,
+					"calls_inlined": 44,
+					"calls_inlining_fails": 18,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": {
+					"calls_total": 61,
+					"calls_no_definition": 39,
+					"calls_inlined": 4,
+					"calls_inlining_fails": 18,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": {
+					"calls_total": 54,
+					"calls_no_definition": 35,
+					"calls_inlined": 6,
+					"calls_inlining_fails": 13,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": {
+					"calls_total": 70,
+					"calls_no_definition": 27,
+					"calls_inlined": 3,
+					"calls_inlining_fails": 40,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": {
+					"calls_total": 110,
+					"calls_no_definition": 44,
+					"calls_inlined": 5,
+					"calls_inlining_fails": 61,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": {
+					"calls_total": 90,
+					"calls_no_definition": 45,
+					"calls_inlined": 25,
+					"calls_inlining_fails": 20,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		}
+	},
+	"normFalseNewFalse": {
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": {
+					"calls_total": 105,
+					"calls_no_definition": 43,
+					"calls_inlined": 44,
+					"calls_inlining_fails": 18,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": {
+					"calls_total": 61,
+					"calls_no_definition": 39,
+					"calls_inlined": 4,
+					"calls_inlining_fails": 18,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": {
+					"calls_total": 54,
+					"calls_no_definition": 35,
+					"calls_inlined": 6,
+					"calls_inlining_fails": 13,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": {
+					"calls_total": 70,
+					"calls_no_definition": 27,
+					"calls_inlined": 3,
+					"calls_inlining_fails": 40,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": {
+					"calls_total": 110,
+					"calls_no_definition": 44,
+					"calls_inlined": 5,
+					"calls_inlining_fails": 61,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": {
+					"calls_total": 90,
+					"calls_no_definition": 45,
+					"calls_inlined": 25,
+					"calls_inlining_fails": 20,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		}
+	}
+}

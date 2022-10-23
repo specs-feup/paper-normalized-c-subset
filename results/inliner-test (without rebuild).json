@@ -1,0 +1,274 @@
+{
+	"normTrueNewTrue": {
+		"CHStoneBenchmarkSet": {
+			"CHStone-adpcm-N": {
+				"result": "{\n  \"calls_total\": 38,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 38,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			},
+			"CHStone-aes-N": {
+				"result": "{\n  \"calls_total\": 20,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 19,\n  \"calls_inlining_fails\": 1\n}",
+				"success": true
+			},
+			"CHStone-blowfish-N": {
+				"result": "{\n  \"calls_total\": 9,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 9,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			},
+			"CHStone-gsm-N": {
+				"result": "{\n  \"calls_total\": 42,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 41,\n  \"calls_inlining_fails\": 1\n}",
+				"success": true
+			},
+			"CHStone-motion-N": {
+				"result": "{\n  \"calls_total\": 33,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 24,\n  \"calls_inlining_fails\": 9\n}",
+				"success": true
+			},
+			"CHStone-sha-N": {
+				"result": "{\n  \"calls_total\": 12,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 12,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			}
+		},
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": "{\n  \"calls_total\": 105,\n  \"calls_no_definition\": 7,\n  \"calls_inlined\": 98,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": "{\n  \"calls_total\": 61,\n  \"calls_no_definition\": 9,\n  \"calls_inlined\": 51,\n  \"calls_inlining_fails\": 1\n}",
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": "{\n  \"calls_total\": 54,\n  \"calls_no_definition\": 15,\n  \"calls_inlined\": 39,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": "{\n  \"calls_total\": 70,\n  \"calls_no_definition\": 8,\n  \"calls_inlined\": 62,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": "{\n  \"calls_total\": 110,\n  \"calls_no_definition\": 7,\n  \"calls_inlined\": 103,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": "{\n  \"calls_total\": 90,\n  \"calls_no_definition\": 9,\n  \"calls_inlined\": 81,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			}
+		},
+		"InlineBenchmarkSet": {
+			"Inlinebench-k_means": {
+				"result": "{\n  \"calls_total\": 19,\n  \"calls_no_definition\": 11,\n  \"calls_inlined\": 8,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			},
+			"Inlinebench-matrix_mult": {
+				"result": "{\n  \"calls_total\": 21,\n  \"calls_no_definition\": 11,\n  \"calls_inlined\": 10,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			},
+			"Inlinebench-vec_multiple_returns": {
+				"result": "{\n  \"calls_total\": 13,\n  \"calls_no_definition\": 6,\n  \"calls_inlined\": 7,\n  \"calls_inlining_fails\": 0\n}",
+				"success": true
+			}
+		}
+	},
+	"normFalseNewTrue": {
+		"CHStoneBenchmarkSet": {
+			"CHStone-adpcm-N": {
+				"result": "{\n  \"calls_total\": 38,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 13,\n  \"calls_inlining_fails\": 25\n}",
+				"success": true
+			},
+			"CHStone-aes-N": {
+				"result": "{\n  \"calls_total\": 20,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 11,\n  \"calls_inlining_fails\": 9\n}",
+				"success": true
+			},
+			"CHStone-blowfish-N": {
+				"result": "{\n  \"calls_total\": 9,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 2,\n  \"calls_inlining_fails\": 7\n}",
+				"success": true
+			},
+			"CHStone-gsm-N": {
+				"result": "{\n  \"calls_total\": 42,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 25,\n  \"calls_inlining_fails\": 17\n}",
+				"success": true
+			},
+			"CHStone-motion-N": {
+				"result": "{\n  \"calls_total\": 32,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 15,\n  \"calls_inlining_fails\": 17\n}",
+				"success": true
+			},
+			"CHStone-sha-N": {
+				"result": "{\n  \"calls_total\": 12,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 8,\n  \"calls_inlining_fails\": 4\n}",
+				"success": true
+			}
+		},
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": "{\n  \"calls_total\": 105,\n  \"calls_no_definition\": 7,\n  \"calls_inlined\": 73,\n  \"calls_inlining_fails\": 25\n}",
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": "{\n  \"calls_total\": 61,\n  \"calls_no_definition\": 9,\n  \"calls_inlined\": 41,\n  \"calls_inlining_fails\": 11\n}",
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": "{\n  \"calls_total\": 54,\n  \"calls_no_definition\": 15,\n  \"calls_inlined\": 31,\n  \"calls_inlining_fails\": 8\n}",
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": "{\n  \"calls_total\": 70,\n  \"calls_no_definition\": 8,\n  \"calls_inlined\": 32,\n  \"calls_inlining_fails\": 30\n}",
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": "{\n  \"calls_total\": 110,\n  \"calls_no_definition\": 7,\n  \"calls_inlined\": 51,\n  \"calls_inlining_fails\": 52\n}",
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": "{\n  \"calls_total\": 90,\n  \"calls_no_definition\": 9,\n  \"calls_inlined\": 61,\n  \"calls_inlining_fails\": 20\n}",
+				"success": true
+			}
+		},
+		"InlineBenchmarkSet": {
+			"Inlinebench-k_means": {
+				"result": "{\n  \"calls_total\": 16,\n  \"calls_no_definition\": 11,\n  \"calls_inlined\": 3,\n  \"calls_inlining_fails\": 2\n}",
+				"success": true
+			},
+			"Inlinebench-matrix_mult": {
+				"result": "{\n  \"calls_total\": 21,\n  \"calls_no_definition\": 11,\n  \"calls_inlined\": 6,\n  \"calls_inlining_fails\": 4\n}",
+				"success": true
+			},
+			"Inlinebench-vec_multiple_returns": {
+				"result": "{\n  \"calls_total\": 12,\n  \"calls_no_definition\": 6,\n  \"calls_inlined\": 3,\n  \"calls_inlining_fails\": 3\n}",
+				"success": true
+			}
+		}
+	},
+	"normTrueNewFalse": {
+		"CHStoneBenchmarkSet": {
+			"CHStone-adpcm-N": {
+				"result": "{\n  \"calls_total\": 38,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 38\n}",
+				"success": true
+			},
+			"CHStone-aes-N": {
+				"result": "{\n  \"calls_total\": 20,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 20\n}",
+				"success": true
+			},
+			"CHStone-blowfish-N": {
+				"result": "{\n  \"calls_total\": 9,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 9\n}",
+				"success": true
+			},
+			"CHStone-gsm-N": {
+				"result": "{\n  \"calls_total\": 42,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 42\n}",
+				"success": true
+			},
+			"CHStone-motion-N": {
+				"result": "{\n  \"calls_total\": 33,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 33\n}",
+				"success": true
+			},
+			"CHStone-sha-N": {
+				"result": "{\n  \"calls_total\": 12,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 12\n}",
+				"success": true
+			}
+		},
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": "{\n  \"calls_total\": 105,\n  \"calls_no_definition\": 7,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 98\n}",
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": "{\n  \"calls_total\": 61,\n  \"calls_no_definition\": 9,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 52\n}",
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": "{\n  \"calls_total\": 54,\n  \"calls_no_definition\": 15,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 39\n}",
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": "{\n  \"calls_total\": 70,\n  \"calls_no_definition\": 8,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 62\n}",
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": "{\n  \"calls_total\": 110,\n  \"calls_no_definition\": 7,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 103\n}",
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": "{\n  \"calls_total\": 90,\n  \"calls_no_definition\": 9,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 81\n}",
+				"success": true
+			}
+		},
+		"InlineBenchmarkSet": {
+			"Inlinebench-k_means": {
+				"result": "{\n  \"calls_total\": 19,\n  \"calls_no_definition\": 11,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 8\n}",
+				"success": true
+			},
+			"Inlinebench-matrix_mult": {
+				"result": "{\n  \"calls_total\": 21,\n  \"calls_no_definition\": 11,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 10\n}",
+				"success": true
+			},
+			"Inlinebench-vec_multiple_returns": {
+				"result": "{\n  \"calls_total\": 13,\n  \"calls_no_definition\": 6,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 7\n}",
+				"success": true
+			}
+		}
+	},
+	"normFalseNewFalse": {
+		"CHStoneBenchmarkSet": {
+			"CHStone-adpcm-N": {
+				"result": "{\n  \"calls_total\": 38,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 38\n}",
+				"success": true
+			},
+			"CHStone-aes-N": {
+				"result": "{\n  \"calls_total\": 20,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 20\n}",
+				"success": true
+			},
+			"CHStone-blowfish-N": {
+				"result": "{\n  \"calls_total\": 9,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 9\n}",
+				"success": true
+			},
+			"CHStone-gsm-N": {
+				"result": "{\n  \"calls_total\": 42,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 42\n}",
+				"success": true
+			},
+			"CHStone-motion-N": {
+				"result": "{\n  \"calls_total\": 32,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 32\n}",
+				"success": true
+			},
+			"CHStone-sha-N": {
+				"result": "{\n  \"calls_total\": 12,\n  \"calls_no_definition\": 0,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 12\n}",
+				"success": true
+			}
+		},
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": "{\n  \"calls_total\": 105,\n  \"calls_no_definition\": 7,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 98\n}",
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": "{\n  \"calls_total\": 61,\n  \"calls_no_definition\": 9,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 52\n}",
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": "{\n  \"calls_total\": 54,\n  \"calls_no_definition\": 15,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 39\n}",
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": "{\n  \"calls_total\": 70,\n  \"calls_no_definition\": 8,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 62\n}",
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": "{\n  \"calls_total\": 110,\n  \"calls_no_definition\": 7,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 103\n}",
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": "{\n  \"calls_total\": 90,\n  \"calls_no_definition\": 9,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 81\n}",
+				"success": true
+			}
+		},
+		"InlineBenchmarkSet": {
+			"Inlinebench-k_means": {
+				"result": "{\n  \"calls_total\": 16,\n  \"calls_no_definition\": 11,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 5\n}",
+				"success": true
+			},
+			"Inlinebench-matrix_mult": {
+				"result": "{\n  \"calls_total\": 21,\n  \"calls_no_definition\": 11,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 10\n}",
+				"success": true
+			},
+			"Inlinebench-vec_multiple_returns": {
+				"result": "{\n  \"calls_total\": 12,\n  \"calls_no_definition\": 6,\n  \"calls_inlined\": 0,\n  \"calls_inlining_fails\": 6\n}",
+				"success": true
+			}
+		}
+	}
+}

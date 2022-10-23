@@ -1,0 +1,634 @@
+{
+	"normTrueNewTrue": {
+		"CHStoneBenchmarkSet": {
+			"CHStone-adpcm-N": {
+				"result": {
+					"calls_total": 38,
+					"calls_no_definition": 3,
+					"calls_inlined": 35,
+					"calls_inlining_fails": 0,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-aes-N": {
+				"result": {
+					"calls_total": 20,
+					"calls_no_definition": 0,
+					"calls_inlined": 19,
+					"calls_inlining_fails": 1,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-blowfish-N": {
+				"result": {
+					"calls_total": 9,
+					"calls_no_definition": 0,
+					"calls_inlined": 9,
+					"calls_inlining_fails": 0,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-gsm-N": {
+				"result": {
+					"calls_total": 42,
+					"calls_no_definition": 0,
+					"calls_inlined": 41,
+					"calls_inlining_fails": 1,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-motion-N": {
+				"result": {
+					"calls_total": 33,
+					"calls_no_definition": 0,
+					"calls_inlined": 29,
+					"calls_inlining_fails": 4,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-sha-N": {
+				"result": {
+					"calls_total": 12,
+					"calls_no_definition": 0,
+					"calls_inlined": 12,
+					"calls_inlining_fails": 0,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		},
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": {
+					"calls_total": 105,
+					"calls_no_definition": 43,
+					"calls_inlined": 38,
+					"calls_inlining_fails": 24,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": {
+					"calls_total": 61,
+					"calls_no_definition": 39,
+					"calls_inlined": 20,
+					"calls_inlining_fails": 2,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": {
+					"calls_total": 54,
+					"calls_no_definition": 35,
+					"calls_inlined": 17,
+					"calls_inlining_fails": 1,
+					"calls_rebuild_fails": 1
+				},
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": {
+					"calls_total": 70,
+					"calls_no_definition": 27,
+					"calls_inlined": 29,
+					"calls_inlining_fails": 4,
+					"calls_rebuild_fails": 10
+				},
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": {
+					"calls_total": 110,
+					"calls_no_definition": 44,
+					"calls_inlined": 57,
+					"calls_inlining_fails": 1,
+					"calls_rebuild_fails": 8
+				},
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": {
+					"calls_total": 90,
+					"calls_no_definition": 45,
+					"calls_inlined": 42,
+					"calls_inlining_fails": 3,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		},
+		"InlineBenchmarkSet": {
+			"Inlinebench-k_means": {
+				"result": {
+					"calls_total": 19,
+					"calls_no_definition": 13,
+					"calls_inlined": 6,
+					"calls_inlining_fails": 0,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"Inlinebench-matrix_mult": {
+				"result": {
+					"calls_total": 21,
+					"calls_no_definition": 13,
+					"calls_inlined": 8,
+					"calls_inlining_fails": 0,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"Inlinebench-vec_multiple_returns": {
+				"result": {
+					"calls_total": 13,
+					"calls_no_definition": 8,
+					"calls_inlined": 5,
+					"calls_inlining_fails": 0,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		}
+	},
+	"normFalseNewTrue": {
+		"CHStoneBenchmarkSet": {
+			"CHStone-adpcm-N": {
+				"result": {
+					"calls_total": 38,
+					"calls_no_definition": 3,
+					"calls_inlined": 10,
+					"calls_inlining_fails": 25,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-aes-N": {
+				"result": {
+					"calls_total": 20,
+					"calls_no_definition": 0,
+					"calls_inlined": 11,
+					"calls_inlining_fails": 9,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-blowfish-N": {
+				"result": {
+					"calls_total": 9,
+					"calls_no_definition": 0,
+					"calls_inlined": 2,
+					"calls_inlining_fails": 7,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-gsm-N": {
+				"result": {
+					"calls_total": 42,
+					"calls_no_definition": 0,
+					"calls_inlined": 25,
+					"calls_inlining_fails": 17,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-motion-N": {
+				"result": {
+					"calls_total": 32,
+					"calls_no_definition": 0,
+					"calls_inlined": 15,
+					"calls_inlining_fails": 17,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-sha-N": {
+				"result": {
+					"calls_total": 12,
+					"calls_no_definition": 0,
+					"calls_inlined": 8,
+					"calls_inlining_fails": 4,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		},
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": {
+					"calls_total": 105,
+					"calls_no_definition": 43,
+					"calls_inlined": 22,
+					"calls_inlining_fails": 40,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": {
+					"calls_total": 61,
+					"calls_no_definition": 39,
+					"calls_inlined": 11,
+					"calls_inlining_fails": 11,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": {
+					"calls_total": 54,
+					"calls_no_definition": 35,
+					"calls_inlined": 11,
+					"calls_inlining_fails": 8,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": {
+					"calls_total": 70,
+					"calls_no_definition": 27,
+					"calls_inlined": 13,
+					"calls_inlining_fails": 30,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": {
+					"calls_total": 110,
+					"calls_no_definition": 44,
+					"calls_inlined": 14,
+					"calls_inlining_fails": 52,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": {
+					"calls_total": 90,
+					"calls_no_definition": 45,
+					"calls_inlined": 22,
+					"calls_inlining_fails": 23,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		},
+		"InlineBenchmarkSet": {
+			"Inlinebench-k_means": {
+				"result": {
+					"calls_total": 16,
+					"calls_no_definition": 13,
+					"calls_inlined": 1,
+					"calls_inlining_fails": 2,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"Inlinebench-matrix_mult": {
+				"result": {
+					"calls_total": 21,
+					"calls_no_definition": 13,
+					"calls_inlined": 4,
+					"calls_inlining_fails": 4,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"Inlinebench-vec_multiple_returns": {
+				"result": {
+					"calls_total": 12,
+					"calls_no_definition": 8,
+					"calls_inlined": 1,
+					"calls_inlining_fails": 3,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		}
+	},
+	"normTrueNewFalse": {
+		"CHStoneBenchmarkSet": {
+			"CHStone-adpcm-N": {
+				"result": {
+					"calls_total": 38,
+					"calls_no_definition": 3,
+					"calls_inlined": 5,
+					"calls_inlining_fails": 30,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-aes-N": {
+				"result": {
+					"calls_total": 20,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 20,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-blowfish-N": {
+				"result": {
+					"calls_total": 9,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 9,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-gsm-N": {
+				"result": {
+					"calls_total": 42,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 42,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-motion-N": {
+				"result": {
+					"calls_total": 33,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 33,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-sha-N": {
+				"result": {
+					"calls_total": 12,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 12,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		},
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": {
+					"calls_total": 105,
+					"calls_no_definition": 43,
+					"calls_inlined": 44,
+					"calls_inlining_fails": 18,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": {
+					"calls_total": 61,
+					"calls_no_definition": 39,
+					"calls_inlined": 4,
+					"calls_inlining_fails": 18,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": {
+					"calls_total": 54,
+					"calls_no_definition": 35,
+					"calls_inlined": 6,
+					"calls_inlining_fails": 13,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": {
+					"calls_total": 70,
+					"calls_no_definition": 27,
+					"calls_inlined": 3,
+					"calls_inlining_fails": 40,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": {
+					"calls_total": 110,
+					"calls_no_definition": 44,
+					"calls_inlined": 5,
+					"calls_inlining_fails": 61,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": {
+					"calls_total": 90,
+					"calls_no_definition": 45,
+					"calls_inlined": 25,
+					"calls_inlining_fails": 20,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		},
+		"InlineBenchmarkSet": {
+			"Inlinebench-k_means": {
+				"result": {
+					"calls_total": 19,
+					"calls_no_definition": 13,
+					"calls_inlined": 4,
+					"calls_inlining_fails": 2,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"Inlinebench-matrix_mult": {
+				"result": {
+					"calls_total": 21,
+					"calls_no_definition": 13,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 8,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"Inlinebench-vec_multiple_returns": {
+				"result": {
+					"calls_total": 13,
+					"calls_no_definition": 8,
+					"calls_inlined": 2,
+					"calls_inlining_fails": 3,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		}
+	},
+	"normFalseNewFalse": {
+		"CHStoneBenchmarkSet": {
+			"CHStone-adpcm-N": {
+				"result": {
+					"calls_total": 38,
+					"calls_no_definition": 3,
+					"calls_inlined": 5,
+					"calls_inlining_fails": 30,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-aes-N": {
+				"result": {
+					"calls_total": 20,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 20,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-blowfish-N": {
+				"result": {
+					"calls_total": 9,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 9,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-gsm-N": {
+				"result": {
+					"calls_total": 42,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 42,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-motion-N": {
+				"result": {
+					"calls_total": 32,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 32,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"CHStone-sha-N": {
+				"result": {
+					"calls_total": 12,
+					"calls_no_definition": 0,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 12,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		},
+		"NasBenchmarkSet": {
+			"NAS-BT-W": {
+				"result": {
+					"calls_total": 105,
+					"calls_no_definition": 43,
+					"calls_inlined": 44,
+					"calls_inlining_fails": 18,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-CG-W": {
+				"result": {
+					"calls_total": 61,
+					"calls_no_definition": 39,
+					"calls_inlined": 4,
+					"calls_inlining_fails": 18,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-EP-W": {
+				"result": {
+					"calls_total": 54,
+					"calls_no_definition": 35,
+					"calls_inlined": 6,
+					"calls_inlining_fails": 13,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-FT-W": {
+				"result": {
+					"calls_total": 70,
+					"calls_no_definition": 27,
+					"calls_inlined": 3,
+					"calls_inlining_fails": 40,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-MG-W": {
+				"result": {
+					"calls_total": 110,
+					"calls_no_definition": 44,
+					"calls_inlined": 5,
+					"calls_inlining_fails": 61,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"NAS-SP-W": {
+				"result": {
+					"calls_total": 90,
+					"calls_no_definition": 45,
+					"calls_inlined": 25,
+					"calls_inlining_fails": 20,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			}
+		},
+		"InlineBenchmarkSet": {
+			"Inlinebench-k_means": {
+				"result": {
+					"calls_total": 16,
+					"calls_no_definition": 13,
+					"calls_inlined": 2,
+					"calls_inlining_fails": 1,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"Inlinebench-matrix_mult": {
+				"result": {
+					"calls_total": 21,
+					"calls_no_definition": 13,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 8,
+					"calls_rebuild_fails": 0
+				},
+				"success": true
+			},
+			"Inlinebench-vec_multiple_returns": {
+				"result": {
+					"calls_total": 12,
+					"calls_no_definition": 8,
+					"calls_inlined": 0,
+					"calls_inlining_fails": 4,
+					"calls_rebuild_fails": 1
+				},
+				"success": true
+			}
+		}
+	}
+}
