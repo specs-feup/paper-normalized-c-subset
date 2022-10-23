@@ -7,7 +7,15 @@ laraImport("lara.benchmark.InlineBenchmarkSet");
 laraImport("lara.cmake.CMaker");
 laraImport("lara.Io");
 
+const chstone = new CHStoneBenchmarkSet();
+chstone.setBenchmarks("aes");
+
+const nas = new NasBenchmarkSet();
+nas.setBenchmarks("MG");
+
 const benchSets = [
+  //chstone,
+  //nas,
   ClavaBenchmarks.getBenchmark("CHStone"),
   ClavaBenchmarks.getBenchmark("NAS"),
   new InlineBenchmarkSet(),

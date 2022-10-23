@@ -21,16 +21,18 @@ class ClavaBenchmarks {
     Polybench: PolybenchBenchmarkSet,
     Rosetta: RosettaBenchmarkSet,
   };
-  static getDefaultCMakerProvider() {}
-
-  static getWindowsCMakerProvider() {
+  static getDefaultCMakerProvider() {
     if (Platforms.isWindows()) {
-      return new CMaker()
-        .setGenerator("MinGW Makefiles")
-        .setMakeCommand("mingw32-make");
+      return ClavaBenchmarks.getWindowsCMakerProvider();
     }
 
     return undefined;
+  }
+
+  static getWindowsCMakerProvider() {
+    return new CMaker()
+      .setGenerator("MinGW Makefiles")
+      .setMakeCommand("mingw32-make");
   }
 
   static getDefaultBenchmarkSets() {
@@ -60,6 +62,9 @@ class ClavaBenchmarks {
   static testBenchmarkSet(benchSet, test, filter) {
     println("BenchmarkSet: " + benchSet.getName());
 
+    // Setting default CMaker provider
+    benchSet.setCMakerProvider(ClavaBenchmarks.getDefaultCMakerProvider);
+
     const instances = ClavaBenchmarks.getInstances(benchSet, filter);
 
     //const instances = benchSet.getInstances();
@@ -84,6 +89,8 @@ class ClavaBenchmarks {
           ": " +
           e;
         println(message);
+        //println(e.stack);
+        //throw e;
         results[instance.getName()] = { result: message, success: false };
       }
 
