@@ -18,8 +18,8 @@ nas.setBenchmarks("MG");
 const benchSets = [
   //chstone,
   //nas,
-  //ClavaBenchmarks.getBenchmark("CHStone"),
-  //ClavaBenchmarks.getBenchmark("NAS"),
+  ClavaBenchmarks.getBenchmark("CHStone"),
+  ClavaBenchmarks.getBenchmark("NAS"),
   new InlineBenchmarkSet(),
 ];
 
@@ -27,9 +27,13 @@ const filter = Io.readJson("support_subset (Windows 2022-10-20).json");
 
 const totalResults = {};
 
-const useInlinerOpts = [true, false];
-const optLevels = ["-O0", "-O2"];
-const compilers = ["gcc", "clang"];
+//const useInlinerOpts = [true, false];
+//const optLevels = ["-O0", "-O2"];
+//const compilers = ["gcc", "clang"];
+
+const useInlinerOpts = [true];
+const optLevels = ["-O2"];
+const compilers = ["gcc"];
 
 const runs = 2;
 
