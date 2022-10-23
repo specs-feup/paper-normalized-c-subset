@@ -26,7 +26,8 @@ class ClavaBenchmarks {
       return ClavaBenchmarks.getWindowsCMakerProvider();
     }
 
-    return undefined;
+    // Default CMaker
+    return new CMaker();
   }
 
   static getWindowsCMakerProvider() {
