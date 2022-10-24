@@ -7,20 +7,20 @@ laraImport("lara.benchmark.InlineBenchmarkSet");
 laraImport("lara.cmake.CMaker");
 laraImport("lara.Io");
 
-setDebug(true);
+//setDebug(true);
 
 const chstone = new CHStoneBenchmarkSet();
 chstone.setBenchmarks("aes");
 
 const nas = new NasBenchmarkSet();
-nas.setBenchmarks("MG");
+nas.setBenchmarks("EP");
 
 const benchSets = [
   //chstone,
-  //nas,
-  ClavaBenchmarks.getBenchmark("CHStone"),
-  ClavaBenchmarks.getBenchmark("NAS"),
-  new InlineBenchmarkSet(),
+  nas,
+  //ClavaBenchmarks.getBenchmark("CHStone"),
+  //ClavaBenchmarks.getBenchmark("NAS"),
+  //new InlineBenchmarkSet(),
 ];
 
 const filter = Io.readJson("support_subset (Windows 2022-10-20).json");

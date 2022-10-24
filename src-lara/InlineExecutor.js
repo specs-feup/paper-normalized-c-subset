@@ -21,8 +21,6 @@ class InlineExecutor {
     const timer = new Timer();
     timer.time(instance.getKernel(), "Test execution time: ");
 
-    //println("Instance: " + instance.getName());
-    //println("Before:\n" + Query.root().code);
     // Inlines everything inside main() function
     if (this.#useInliner) {
       Inlining();

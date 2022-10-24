@@ -41,11 +41,12 @@ function createSubsetFilter() {
   ];
 
   // Apply subset to all benchmarks
+  const benchResults = {};
   for (const bench of benchSets) {
     //println("Benchmark: " + bench.getName());
 
     // Obtain benchmark results
-    const results = ClavaBenchmarks.testBenchmarkSet(bench, testSubset, filter);
+    const results = ClavaBenchmarks.testBenchmarkSet(bench, testSubset, undefined);
 
     benchResults[bench.getName()] = results;
 
@@ -54,16 +55,19 @@ function createSubsetFilter() {
   }
 
   // Save final results
-  Io.writeJson("support_subset.json", benchResults);
+  Io.writeJson("support_subset (Windows 2022-10-24).json", benchResults);
 }
 
+createSubsetFilter()
+
+/*
 const benchSets = [
   ClavaBenchmarks.getBenchmark("CHStone"),
   ClavaBenchmarks.getBenchmark("NAS"),
   new InlineBenchmarkSet(),
 ];
 
-const filter = Io.readJson("support_subset (Windows 2022-10-20).json");
+const filter = Io.readJson("support_subset (Windows 2022-10-24).json");
 
 const totalResults = {};
 
@@ -122,7 +126,7 @@ const normFalseNewFalse = ClavaBenchmarks.testBenchmarks(
 totalResults["normFalseNewFalse"] = normFalseNewFalse;
 
 Io.writeJson("inliner-test.json", totalResults);
-
+*/
 /*
 const benchResults = {};
 for (const bench of benchSets) {

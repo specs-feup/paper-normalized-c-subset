@@ -44,12 +44,19 @@ class InlineCollector {
         continue;
       }
 
-      // In Windows, these functions have implementation, do not count them
+      // If in system header, do not count them
+
+      if (originalCall.function.isInSystemHeader) {
+        continue;
+      }
+
+      /*
       const functionName = originalCall.function.name;
       if (functionName === "printf" || functionName === "fprintf") {
         calls_no_definition += 1;
         continue;
       }
+      */
 
       // Save AST
       Clava.pushAst();
