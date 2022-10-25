@@ -180,7 +180,7 @@
     </entry>
     <entry>
       <string>aspect</string>
-      <file>Main.js</file>
+      <file>ExtractCsv.js</file>
     </entry>
     <entry>
       <string>ignoreHeaderIncludes</string>
