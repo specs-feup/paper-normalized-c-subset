@@ -1,4 +1,5 @@
 laraImport("clava.opt.Inlining");
+laraImport("clava.opt.NormalizeToSubset");
 laraImport("weaver.Query");
 laraImport("lara.code.Timer");
 
@@ -6,20 +7,26 @@ class InlineExecutor {
   #useInliner;
   #optLevel;
   #compiler;
-
   #runs;
+  #subset;
 
-  constructor(useInliner, optLevel, compiler, runs) {
+  constructor(useInliner, optLevel, compiler, runs, subset = false) {
     this.#useInliner = useInliner ?? true;
     this.#optLevel = optLevel ?? "-O2";
     this.#compiler = compiler ?? "gcc";
     this.#runs = runs ?? 5;
+    this.#subset = subset;
   }
 
   execute(instance) {
     // Measure time around kernel
     const timer = new Timer();
     timer.time(instance.getKernel(), "Test execution time: ");
+
+    // Applies subset normalization to the code
+    if (this.#subset) {
+      NormalizeToSubset(Query.root());
+    }
 
     // Inlines everything inside main() function
     if (this.#useInliner) {

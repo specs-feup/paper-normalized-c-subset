@@ -16,7 +16,7 @@ function inliningResults() {
   println(inlinedCsv);
 }
 
-function executionResults() {
+function inlinerExecutionResults() {
   // Load execution results
   const executionData = Io.readJson(
     "results/inliner-execution-test (All 2022-10-24 Linux).json"
@@ -29,4 +29,25 @@ function executionResults() {
   println(executionCsv);
 }
 
-executionResults();
+function normalizationExecutionResults() {
+  // Load execution results
+  const executionData = Io.readJson(
+    "results/subset-execution-test (Linux 2022-10-25).json"
+  );
+
+  const executionCsv = conv.executionResults(
+    executionData,
+    [
+      ["Original", "Subset"],
+      ["-O0", "-O2"],
+      ["clang", "gcc"],
+    ],
+    (prefixFirst = "Subset_")
+  );
+
+  Io.writeFile("normalizationExecutionComparison.csv", executionCsv);
+  println("Wrote 'normalizationExecutionComparison.csv'");
+  println(executionCsv);
+}
+
+normalizationExecutionResults();

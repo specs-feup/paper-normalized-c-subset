@@ -76,3 +76,5 @@ stderr.txt
 # Custom stuff
 **/woven_code/*
 *-partial.json
+**/laraBenchmarks*/*
+**/debug_files/*

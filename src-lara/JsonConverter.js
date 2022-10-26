@@ -136,21 +136,29 @@ class JsonConverter {
     return benchmarkSetsNames;
   }
 
-  executionResults(obj) {
+  executionResults(
+    obj,
+    configs = [
+      ["NotInlining", "Inlining"],
+      ["-O0", "-O2"],
+      ["clang", "gcc"],
+    ],
+    prefixFirst = "Inlining_"
+  ) {
     // Examples:
     // Inlining_-O0_gcc_2
     // NotInlining_-O2_gcc
-
+    /*
     const configs = [
       ["NotInlining", "Inlining"],
       ["-O0", "-O2"],
       ["clang", "gcc"],
     ];
-
+*/
     // Find first set that uses inlining
     let baseSet = undefined;
     for (const key in obj) {
-      if (key.startsWith("Inlining_")) {
+      if (key.startsWith(prefixFirst)) {
         baseSet = obj[key];
         break;
       }

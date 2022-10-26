@@ -21,7 +21,7 @@ const benchSets = [
   new InlineBenchmarkSet(),
 ];
 
-const filter = Io.readJson("support_subset (Windows 2022-10-20).json");
+const filter = Io.readJson("support_subset (Windows 2022-10-24).json");
 
 const totalResults = {};
 

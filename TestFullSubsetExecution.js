@@ -17,50 +17,54 @@ nas.setBenchmarks("EP");
 
 const benchSets = [
   //chstone,
-  nas,
-  //ClavaBenchmarks.getBenchmark("CHStone"),
-  //ClavaBenchmarks.getBenchmark("NAS"),
-  //new InlineBenchmarkSet(),
+  //nas,
+  ClavaBenchmarks.getBenchmark("CHStone"),
+  ClavaBenchmarks.getBenchmark("NAS"),
+  new InlineBenchmarkSet(),
 ];
 
 const filter = Io.readJson("support_subset (Windows 2022-10-24).json");
 
 const totalResults = {};
-
-//const useInlinerOpts = [true, false];
-//const optLevels = ["-O0", "-O2"];
-//const compilers = ["gcc", "clang"];
-
-const useInlinerOpts = [true];
+/*
+const useSubsetOpts = [true, false];
+const optLevels = ["-O0", "-O2"];
+const compilers = ["gcc", "clang"];
+*/
+const useSubsetOpts = [true];
 const optLevels = ["-O2"];
 const compilers = ["gcc"];
 
 const runs = 2;
 
-for (const useInliner of useInlinerOpts) {
+for (const useSubset of useSubsetOpts) {
   for (const compiler of compilers) {
     for (const optLevel of optLevels) {
       // Create name
-      const useInlinerName = useInliner ? "Inlining" : "NotInlining";
+      const useSubsetName = useSubset ? "Subset" : "Original";
       const testName =
-        useInlinerName + "_" + optLevel + "_" + compiler + "_" + runs;
+        useSubsetName + "_" + optLevel + "_" + compiler + "_" + runs;
 
       println("Running test '" + testName + "'");
 
       const testResult = ClavaBenchmarks.testBenchmarks(
         benchSets,
         (instance) =>
-          new InlineExecutor(useInliner, optLevel, compiler, runs).execute(
-            instance
-          ),
+          new InlineExecutor(
+            false,
+            optLevel,
+            compiler,
+            runs,
+            useSubset
+          ).execute(instance),
         filter
       );
 
       totalResults[testName] = testResult;
 
-      Io.writeJson("inliner-execution-test-partial.json", totalResults);
+      Io.writeJson("subset-execution-test-partial.json", totalResults);
     }
   }
 }
 
-Io.writeJson("inliner-execution-test.json", totalResults);
+Io.writeJson("subset-execution-test.json", totalResults);
