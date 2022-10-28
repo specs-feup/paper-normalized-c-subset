@@ -1,0 +1,188 @@
+{
+	"CHStoneBenchmarkSet": {
+		"CHStone-adpcm-N": {
+			"result": {
+				"originalLoc": 410,
+				"originalNodeCount": 3025,
+				"normalizedLoc": 594,
+				"normalizedNodeCount": 3439,
+				"inlinedLoc": 4263,
+				"inlinedNodeCount": 16836
+			},
+			"success": true
+		},
+		"CHStone-aes-N": {
+			"result": {
+				"originalLoc": 565,
+				"originalNodeCount": 5663,
+				"normalizedLoc": 750,
+				"normalizedNodeCount": 6329,
+				"inlinedLoc": 6476,
+				"inlinedNodeCount": 38033
+			},
+			"success": true
+		},
+		"CHStone-blowfish-N": {
+			"result": {
+				"originalLoc": 270,
+				"originalNodeCount": 14501,
+				"normalizedLoc": 357,
+				"normalizedNodeCount": 14909,
+				"inlinedLoc": 2375,
+				"inlinedNodeCount": 41696
+			},
+			"success": true
+		},
+		"CHStone-gsm-N": {
+			"result": {
+				"originalLoc": 332,
+				"originalNodeCount": 3039,
+				"normalizedLoc": 540,
+				"normalizedNodeCount": 3670,
+				"inlinedLoc": 3279,
+				"inlinedNodeCount": 14927
+			},
+			"success": true
+		},
+		"CHStone-mips-N": {
+			"result": {
+				"originalLoc": 177,
+				"originalNodeCount": 905,
+				"normalizedLoc": 350,
+				"normalizedNodeCount": 1668,
+				"inlinedLoc": 680,
+				"inlinedNodeCount": 3179
+			},
+			"success": true
+		},
+		"CHStone-motion-N": {
+			"result": {
+				"originalLoc": 216,
+				"originalNodeCount": 5332,
+				"normalizedLoc": 381,
+				"normalizedNodeCount": 5786,
+				"inlinedLoc": 35438,
+				"inlinedNodeCount": 122984
+			},
+			"success": true
+		},
+		"CHStone-sha-N": {
+			"result": {
+				"originalLoc": 161,
+				"originalNodeCount": 17345,
+				"normalizedLoc": 242,
+				"normalizedNodeCount": 17575,
+				"inlinedLoc": 1928,
+				"inlinedNodeCount": 25025
+			},
+			"success": true
+		}
+	},
+	"NasBenchmarkSet": {
+		"NAS-BT-W": {
+			"result": {
+				"originalLoc": 2013,
+				"originalNodeCount": 27822,
+				"normalizedLoc": 3713,
+				"normalizedNodeCount": 31832,
+				"inlinedLoc": 27369,
+				"inlinedNodeCount": 343803
+			},
+			"success": true
+		},
+		"NAS-CG-W": {
+			"result": {
+				"originalLoc": 512,
+				"originalNodeCount": 3559,
+				"normalizedLoc": 1147,
+				"normalizedNodeCount": 5108,
+				"inlinedLoc": 2885,
+				"inlinedNodeCount": 12309
+			},
+			"success": true
+		},
+		"NAS-EP-W": {
+			"result": {
+				"originalLoc": 256,
+				"originalNodeCount": 1626,
+				"normalizedLoc": 412,
+				"normalizedNodeCount": 1930,
+				"inlinedLoc": 907,
+				"inlinedNodeCount": 4249
+			},
+			"success": true
+		},
+		"NAS-FT-W": {
+			"result": {
+				"originalLoc": 624,
+				"originalNodeCount": 4639,
+				"normalizedLoc": 1154,
+				"normalizedNodeCount": 5745,
+				"inlinedLoc": 11172,
+				"inlinedNodeCount": 51260
+			},
+			"success": true
+		},
+		"NAS-IS-W": {
+			"result": {
+				"originalLoc": 295,
+				"originalNodeCount": 1713,
+				"normalizedLoc": 525,
+				"normalizedNodeCount": 2279,
+				"inlinedLoc": 1424,
+				"inlinedNodeCount": 5474
+			},
+			"success": true
+		},
+		"NAS-MG-W": {
+			"result": "[ERROR] problems while testing instance 'NAS-MG-W: TypeError: Cannot read property \"name\" from undefined",
+			"success": false
+		},
+		"NAS-SP-W": {
+			"result": {
+				"originalLoc": 1846,
+				"originalNodeCount": 20566,
+				"normalizedLoc": 4007,
+				"normalizedNodeCount": 25212,
+				"inlinedLoc": 20426,
+				"inlinedNodeCount": 108703
+			},
+			"success": true
+		}
+	},
+	"InlineBenchmarkSet": {
+		"Inlinebench-k_means": {
+			"result": {
+				"originalLoc": 106,
+				"originalNodeCount": 603,
+				"normalizedLoc": 266,
+				"normalizedNodeCount": 1081,
+				"inlinedLoc": 446,
+				"inlinedNodeCount": 1705
+			},
+			"success": true
+		},
+		"Inlinebench-matrix_mult": {
+			"result": {
+				"originalLoc": 73,
+				"originalNodeCount": 331,
+				"normalizedLoc": 151,
+				"normalizedNodeCount": 510,
+				"inlinedLoc": 385,
+				"inlinedNodeCount": 1207
+			},
+			"success": true
+		},
+		"Inlinebench-vec_multiple_returns": {
+			"result": {
+				"originalLoc": 46,
+				"originalNodeCount": 195,
+				"normalizedLoc": 74,
+				"normalizedNodeCount": 285,
+				"inlinedLoc": 143,
+				"inlinedNodeCount": 426
+			},
+			"success": true
+		}
+	}
+}

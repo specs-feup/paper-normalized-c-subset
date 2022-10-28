@@ -121,9 +121,9 @@ class JsonConverter {
     );
   }
 
-  #getBenchmarkSetsNames(obj) {
+  #getBenchmarkSetsNames(obj, isFlat = false) {
     // Check just the first set of options
-    const benchesExample = Object.values(obj)[0];
+    const benchesExample = isFlat ? obj : Object.values(obj)[0];
 
     const benchmarkSetsNames = [];
     for (const benchSet in benchesExample) {
@@ -276,6 +276,10 @@ class JsonConverter {
     // Check return values
     const returnValues = data["result"]["returnValues"];
 
+    if (returnValues === undefined) {
+      return true;
+    }
+
     for (const value of returnValues) {
       if (value !== 0) {
         println(`Ignoring ${names[1]}`);
@@ -284,5 +288,74 @@ class JsonConverter {
     }
 
     return true;
+  }
+
+  benchmarkCharacterization(obj) {
+    // Get list of benchmark set-instance pair
+    let benchmarkSetsNames = this.#getBenchmarkSetsNames(obj, true);
+
+    // Filter benchmarks that were successful
+    benchmarkSetsNames = benchmarkSetsNames.filter((names) =>
+      this.#isSuccessExecutionSet(names, obj)
+    );
+
+    println("NAMES " + benchmarkSetsNames);
+    const data = [];
+
+    // Build header
+    const header = [
+      "Benchmark",
+      "Base LoC",
+      "Base Nodes",
+      "Norm LoC Inc",
+      "Norm Nodes Inc",
+      "Inlining LoC Inc",
+      "Inlining Nodes Inc",
+    ];
+
+    data.push(header);
+
+    // For each pair, extract data inside results
+    for (const setInstance of benchmarkSetsNames) {
+      const row = [];
+
+      // Bench name
+      row.push(setInstance[1]);
+
+      const metrics = obj[setInstance[0]][setInstance[1]]["result"];
+      printlnObject(metrics);
+      const originalLoc = metrics["originalLoc"];
+      const originalNodeCount = metrics["originalNodeCount"];
+
+      row.push(originalLoc);
+      row.push(originalNodeCount);
+
+      row.push(metrics["normalizedLoc"] / originalLoc);
+      row.push(metrics["normalizedNodeCount"] / originalNodeCount);
+
+      row.push(metrics["inlinedLoc"] / originalLoc);
+      row.push(metrics["inlinedNodeCount"] / originalNodeCount);
+
+      /*
+
+      for (const config of configs) {
+        const configData = obj[config];
+        const instanceData =
+          configData[setInstance[0]][setInstance[1]]["result"];
+        //printlnObject(instanceData);
+        const calls =
+          instanceData["calls_total"] - instanceData["calls_no_definition"];
+
+        const inlined = instanceData["calls_inlined"] / calls;
+
+        row.push(calls);
+        row.push(inlined);
+        
+      }
+        */
+      data.push(row);
+    }
+
+    return this.toCsv(data);
   }
 }
