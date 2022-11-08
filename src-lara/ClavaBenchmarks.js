@@ -64,7 +64,7 @@ class ClavaBenchmarks {
     println("BenchmarkSet: " + benchSet.getName());
 
     // Setting default CMaker provider
-    benchSet.setCMakerProvider(ClavaBenchmarks.getDefaultCMakerProvider);
+    //benchSet.setCMakerProvider(ClavaBenchmarks.getDefaultCMakerProvider);
 
     const instances = ClavaBenchmarks.getInstances(benchSet, filter);
 

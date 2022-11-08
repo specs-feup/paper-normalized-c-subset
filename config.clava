@@ -180,7 +180,7 @@
     </entry>
     <entry>
       <string>aspect</string>
-      <file>TestFullInlineExecution.js</file>
+      <file>TestInliner.js</file>
     </entry>
     <entry>
       <string>ignoreHeaderIncludes</string>

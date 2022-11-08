@@ -23,19 +23,19 @@ const benchSets = [
   new InlineBenchmarkSet(),
 ];
 
-const filter = Io.readJson("support_subset (Windows 2022-10-20).json");
+const filter = Io.readJson("support_subset (Windows 2022-10-24).json");
 
 const totalResults = {};
 
-//const useInlinerOpts = [true, false];
-//const optLevels = ["-O0", "-O2"];
-//const compilers = ["gcc", "clang"];
+const useInlinerOpts = [true, false];
+const optLevels = ["-O0", "-O2"];
+const compilers = ["gcc", "clang"];
 
-const useInlinerOpts = [true];
-const optLevels = ["-O2"];
-const compilers = ["gcc"];
+//const useInlinerOpts = [true];
+//const optLevels = ["-O2"];
+//const compilers = ["gcc"];
 
-const runs = 2;
+const runs = 8;
 
 for (const useInliner of useInlinerOpts) {
   for (const compiler of compilers) {
